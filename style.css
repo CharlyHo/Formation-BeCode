@@ -1,0 +1,45 @@
+body {
+    margin: 20px;
+}
+
+.carre {
+    display: grid;
+    position: relative; 
+    width: max-content;
+    height: max-content;
+    margin: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 3s;
+}
+
+.carre-0 {
+    background-color: black;
+}
+
+.carre-1 {
+
+    background-color: rgb(224, 12, 12);
+}
+
+.carre-2 {
+    background-color: rgb(238, 255, 0);
+}
+
+.carre-3 {
+    background-color: black;
+}
+
+.carre:hover {
+    opacity: 0.5;
+    background-color: rgb(0, 0, 0);
+}
+
+.img1{
+    width: 100%;
+}
+
+.img2{
+    width: 100%;
+}
